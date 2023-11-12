@@ -5,13 +5,16 @@
     box-shadow: border-box;
 }
 body{
-    background: #222;
+    background: linear-gradient(to bottom, #141e30, #243b55);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(to right, #fd746c, #ff9068);
     color: #fff;
     margin: 100px auto 0;
     border-radius:20px;
